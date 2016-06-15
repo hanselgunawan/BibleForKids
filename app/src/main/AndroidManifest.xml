@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.alkitabanak" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".splash_screen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".homeNuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page1_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page2_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page3_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page4_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page5_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page6_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no1_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no2_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no4_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_result_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no3_nuh"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page1_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page2_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page3_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page4_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page5_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page6_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".page7_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no1_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no2_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no3_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_no4_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".quiz_result_daud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".homeDaud"
+            android:label=""
+            android:screenOrientation="landscape" >
+        </activity>
+
+    </application>
+
+</manifest>

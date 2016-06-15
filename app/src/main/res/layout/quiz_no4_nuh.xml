@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quiz_bg_no4"
+    tools:context="com.example.dell.alkitabanak.quiz_no4_nuh">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/quiz_nuh_4"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="37dp"
+        android:id="@+id/textViewQuizSoalEmpat"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewQuizSoalEmpat"
+        android:layout_alignLeft="@+id/textViewQuizSoalEmpat"
+        android:layout_alignStart="@+id/textViewQuizSoalEmpat"
+        android:layout_marginLeft="154dp"
+        android:layout_marginStart="154dp"
+        android:id="@+id/radioGroupSoalEmpat">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_nuh_4_a"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp"
+            android:id="@+id/radioButtonSoalEmpatA" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_nuh_4_b"
+            android:textSize="25dp"
+            android:id="@+id/radioButtonSoalEmpatB" />
+    </RadioGroup>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/panah_lihat_hasil"
+        android:onClick="onClickLanjut"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/radioGroupSoalEmpat"
+        android:layout_toRightOf="@+id/imageButton9"
+        android:layout_toEndOf="@+id/imageButton9" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton9"
+        android:onClick="onClickKembali"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/panah_kembali_arrow"
+        android:layout_marginLeft="76dp"
+        android:layout_marginStart="76dp"
+        android:layout_below="@+id/radioGroupSoalEmpat"
+        android:layout_alignLeft="@+id/radioGroupSoalEmpat"
+        android:layout_alignStart="@+id/radioGroupSoalEmpat" />
+</RelativeLayout>

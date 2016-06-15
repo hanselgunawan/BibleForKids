@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_quiz_no2"
+    android:background="@drawable/quiz_bg_no2_daud"
+    tools:context="com.example.dell.alkitabanak.quiz_no2_daud">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/quiz_daud_2"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="37dp"
+        android:id="@+id/textViewQuizSoalDuaDaud"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewQuizSoalDuaDaud"
+        android:layout_alignLeft="@+id/textViewQuizSoalDuaDaud"
+        android:layout_alignStart="@+id/textViewQuizSoalDuaDaud"
+        android:layout_marginLeft="154dp"
+        android:layout_marginStart="154dp"
+        android:id="@+id/radioGroupSoalDuaDaud">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_daud_2_a"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp"
+            android:id="@+id/radioButtonSoalDuaADaud" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_daud_2_b"
+            android:textSize="25dp"
+            android:id="@+id/radioButtonSoalDuaBDaud" />
+    </RadioGroup>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/panah_lanjut"
+        android:onClick="onClickLanjut"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="44dp"
+        android:layout_marginEnd="44dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton9"
+        android:layout_marginTop="30dp"
+        android:onClick="onClickKembali"
+        android:background="@drawable/panah_kembali_arrow"
+        android:layout_below="@+id/radioGroupSoalDuaDaud"
+        android:layout_toLeftOf="@+id/imageButton8"
+        android:layout_toStartOf="@+id/imageButton8" />
+
+</RelativeLayout>

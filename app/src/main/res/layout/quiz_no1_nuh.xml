@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_quiz_no1"
+    android:background="@drawable/quiz_bg_no1"
+    tools:context="com.example.dell.alkitabanak.quiz_no1_nuh">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/quiz_nuh_1"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="37dp"
+        android:id="@+id/textViewQuizSoalSatu"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewQuizSoalSatu"
+        android:layout_alignLeft="@+id/textViewQuizSoalSatu"
+        android:layout_alignStart="@+id/textViewQuizSoalSatu"
+        android:layout_marginLeft="154dp"
+        android:layout_marginStart="154dp"
+        android:id="@+id/radioGroupSoalSatu">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_nuh_1_a"
+            android:layout_marginBottom="5dp"
+            android:textSize="25dp"
+            android:id="@+id/radioButtonSoalSatuA" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_nuh_1_b"
+            android:textSize="25dp"
+            android:id="@+id/radioButtonSoalSatuB" />
+    </RadioGroup>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/panah_lanjut"
+        android:onClick="onClickLanjut"
+        android:layout_marginRight="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/radioGroupSoalSatu"
+        android:layout_alignEnd="@+id/radioGroupSoalSatu"
+        android:layout_marginBottom="35dp" />
+</RelativeLayout>

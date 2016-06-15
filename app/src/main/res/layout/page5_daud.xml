@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFB2"
+    tools:context="com.example.dell.alkitabanak.page5_daud">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:scaleType="fitXY"
+        android:src="@drawable/page5_daud"
+        android:layout_above="@+id/textViewFiveDaud"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_daud_five"
+        android:id="@+id/textViewFiveDaud"
+        android:textSize="21sp"
+        android:layout_toRightOf="@+id/imageViewHelper"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/imageButton5" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonPrevPageFiveDaud"
+        android:onClick="onClickPrevPageFiveDaud"
+        android:src="@drawable/previous_arrow"
+        android:layout_marginTop="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNextPageFiveDaud"
+        android:id="@+id/imageButtonNextPageFiveDaud"
+        android:layout_alignTop="@+id/imageButtonPrevPageFiveDaud"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5"
+        android:src="@drawable/next_arrow" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/speaker"
+        android:onClick="onClickDub"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/imageButtonNextPageFiveDaud"
+        android:layout_alignStart="@+id/imageButtonNextPageFiveDaud" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewHelper"
+        android:layout_alignBottom="@+id/imageButton5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
